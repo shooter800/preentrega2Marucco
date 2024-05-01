@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,800;1,400;1,500;1,600;1,700 & display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif
+}
+
+.Menu-container {
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+header {
+    background-color: rgb(240, 224, 202);
+}
+
+.Menu-container {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imglogo1 {
+    width: 25%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-bottom: 5px;
+    padding: 50px;
+}
+
+.world-canine{
+    color: #531fa7;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.navbar ul li {
+    position: relative;
+    float: left;
+    text-transform: uppercase;
+}
+
+.navbar ul li{
+    font-size: 18px;
+    padding: 20px;
+    color: #1f960f;
+    display: block;
+    font-weight: 600;
+}
+
+#menu {
+    display: none;
+}
+
+.world-canine{
+    width: 25px;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #14a314;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p {
+    font-size: 16px;
+    color: #0af702;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.perritosmain {
+    background-color: #ffffff;
+    border-radius: 8%;
+    -webkit-border-radius: 8%;
+    -moz-border-radius: 8%;
+    -ms-border-radius: 8%;
+    -o-border-radius: 8%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.animal {
+    background-color: rgb(214, 211, 210);
+    padding: 40px;
+}
+
+.perros h2 {
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.perritosmain img {
+    width: 100%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.perritosmain h3 {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.perritosmain p {
+    font-size: 14px;
+    color: #342521;
+    margin-bottom: 18px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+}
+
+footer {
+    background-color: rgba(133, 184, 250, 0.9);
+    padding: 20px;
+    text-align: center;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.logowpp {
+    width: 30%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.tarjetas {
+    background-color: #ffffff;
+    border-radius: 8%;
+    -webkit-border-radius: 8%;
+    -moz-border-radius: 8%;
+    -ms-border-radius: 8%;
+    -o-border-radius: 8%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+#Gatos {
+    background-color: rgb(214, 211, 210);
+    padding: 40px;
+}
+
+#Gatos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.card h3 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.card p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.btnpets {
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+}
+
+#Perros {
+    background-color: rgb(214, 211, 210);
+    padding: 40px;
+}
+
+#Perros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contacto .container {
+    background-color: #d6d5d5;
+    padding: 40px;
+}
+
+.contacto .container h2 {
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+#linebreak {
+    margin-bottom: 20px;
+}
+
+.contcontainer {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contcomplet {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#sobre {
+    padding: 40px;
+}
+
+.sobre h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.patrocinadores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.patrocinador {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.patrocinador img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#Requisitos-1 {
+    padding: 40px;
+}
+
+.inforequisitos h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.inforequisitos p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.requilist {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+#ubirequisitos {
+    background-color: lightgray;
+    padding: 40px;
+}
+
+.maparequisitos {
+    width: 100%;
+}
+
+#Plazap {
+    text-align: center;
+}
+
+.inforequisitos img {
+    width: 30%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.inforequisitos img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .dropup-center {
+        display: none;
+    }
+
+    .dropup-center ul li{
+        position: relative;
+        float: left;
+        text-transform: uppercase;
+    }
+    
+    .dropup-center ul li {
+        font-size: 18px;
+        padding: 20px;
+        color: #1f960f;
+        display: block;
+        font-weight: 600;
+    }
+
+
+    .dropup {
+        display: none;
+    }
+}
+
+
+
+
